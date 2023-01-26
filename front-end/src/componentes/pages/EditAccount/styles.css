@@ -1,0 +1,131 @@
+
+.background{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.editUser{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 50%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.editUser a{
+    font-size: 15px;
+    color: #d3ae4a;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.editUser p{
+    font-size: 20px;
+    color: red;
+    margin: 0.5em;
+}
+
+.editUser h1{
+    font-size: 30px;
+    color: #d3ae4a;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.editUser label{
+    color: #d3ae4a;
+    font-size: 25px;
+    padding: 0.5em 0; 
+}
+
+.editUser input{
+    width: 95%;
+    height: 25px;
+    font-size: 20px;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.buttonEditar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttonEditar button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(24, 23, 23);
+    border-radius: 50px;
+    color: #d3ae4a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button button:hover{
+    background-color: rgb(12, 11, 11);
+}
+
+@media(max-height:703px){
+    .editUser input{
+        margin: 0;
+    }
+}
+
+@media(max-height:600px){
+    .editUser label{
+        font-size: 15px;
+    }
+
+    .editUser input{
+        height: 20px;
+        font-size: 15px;
+    }
+
+    .buttonEditar button{
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .editUser h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-height:442px){
+    .editUser label{
+        font-size: 15px;
+    }
+
+    .editUser input{
+        height: 15px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:646px){
+    .editUser{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+

@@ -1,0 +1,74 @@
+.warningDeleteMobile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    height: 0;
+    transition: 0.5s;
+}
+
+.warningDeleteMobile p{
+    display: none;
+    color: #d3ae4a;
+    font-size: 20px;
+    margin-bottom: 1em;
+    padding: 0 1em;
+}
+
+.warningDeleteMobile div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warningDeleteMobile button{
+    display: none;
+    font-size: 15px;
+    color: #d3ae4a;
+    margin: 0;
+    margin-left: 1em;
+}
+
+@media(max-width:879px){
+    .warningDeleteMobile p{
+        font-size: 15px;
+    }
+
+    .warningDeleteMobile button{
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:564px){
+    .warningDeleteMobile p{
+        font-size: 13px;
+    }
+    
+}
+
+@media(max-width:441px){
+    .warningDeleteMobile p{
+        font-size: 12px;
+    }
+
+    .warningDeleteMobile button{
+        font-size: 9px;
+        height: 25px;
+    }
+  
+}
+
+@media(max-width:441px){
+    .warningDeleteMobile p{
+        font-size: 10px;
+    }
+
+    .warningDeleteMobile button{
+        font-size: 8px;
+        height: 20px;
+    }
+  
+}

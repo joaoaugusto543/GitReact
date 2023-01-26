@@ -1,0 +1,25 @@
+.container{
+    margin: 0 6%;
+    height: 68%;
+}
+
+.NavBar{
+    display: flex;
+    height: 100%;    
+}
+
+
+
+.navMenu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}

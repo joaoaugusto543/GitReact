@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: 'Roboto';
+  
+
+}
+
+body,html{
+  background-color: #222;  
+  height: 100%;
+}
+
+#root{
+  min-height: 100%;
+}
+
+button{
+  border: none;
+}
+

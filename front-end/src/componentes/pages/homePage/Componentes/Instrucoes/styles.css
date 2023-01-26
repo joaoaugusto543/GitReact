@@ -1,0 +1,122 @@
+.instrucoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3em 5em;
+    background-color: black;
+    margin: 5em 0;
+}
+
+.instrucoes h1{
+    color:#d3ae4a;  
+    font-size: 35px;
+    text-align: center;
+    margin-bottom:1em ;
+}
+
+.instrucoes ul{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.instrucoes li{
+    font-size: 20px;
+    color: #d3ae4a;
+    padding: 1em 0;
+}
+
+@media(max-width:900px){
+    .instrucoes h1{
+        font-size: 50px;
+    }
+    
+    .instrucoes li{
+        font-size: 30px;    
+    }
+
+}
+
+@media(max-width:700px){
+    .instrucoes h1{
+        font-size: 45px;
+    }
+    
+    .instrucoes li{
+        font-size: 25px;
+    
+    }
+
+}
+
+@media(max-width:592px){
+    .instrucoes h1{
+        font-size: 40px;
+    }
+    
+    .instrucoes li{
+        font-size: 25px;
+    
+    }
+
+}
+
+@media(max-width:519px){
+    .instrucoes h1{
+        font-size: 35px;
+    }
+    
+    .instrucoes li{
+        font-size: 20px;
+    
+    }
+
+    .instrucoes{
+        padding: 3em;
+    }
+}
+
+@media(max-width:454px){
+    .instrucoes h1{
+        font-size: 30px;
+    }
+    
+    .instrucoes li{
+        font-size: 20px;
+    
+    }
+}
+
+@media(max-width:389px){
+    .instrucoes h1{
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+    .instrucoes ul{
+        padding: 2em;
+    }
+    
+    .instrucoes li{
+        font-size: 16px;
+    
+    }
+
+    .instrucoes{
+        padding: 2em;
+    }
+}
+
+@media(max-width:300px){
+    .instrucoes h1{
+        font-size: 20px;
+    }
+    
+    .instrucoes li{
+        font-size: 16px;
+    
+    }
+
+}

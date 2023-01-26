@@ -1,0 +1,64 @@
+.background{
+    background-color: #222;
+    z-index: 99;
+    left: 0;
+}
+
+.warningDeleteUser{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.warningDeleteUser h1{
+    font-size: 20px;
+    margin-bottom: 2em;
+    color: #d3ae4a;
+}
+
+.warningDeleteUser button{
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    background-color: #222;
+    margin:0 1em;
+    color: #d3ae4a;
+    padding: 0.5em;
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.warningDeleteUser button:hover{
+    background-color: rgb(17, 17, 17);
+}
+
+.warningDeleteUser div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+@media(max-width:400px){
+    .warningDeleteUser{
+        height: 100%;
+        width: 100%;
+    }
+
+    .warningDeleteUser h1{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:280px){
+
+    .warningDeleteUser h1{
+        font-size: 13px;
+    }
+}
+

@@ -1,0 +1,54 @@
+.navBarButton{
+    font-size: 25px;
+    padding-bottom:0 ;
+    color: #d3ae4a;
+    cursor: pointer;
+    background-color: black;
+}
+
+.yourAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color:#0e0d0c;
+    border-top:0 ;
+    height: 0px;
+    width: 115px;
+    transition: 0.3s;
+
+}
+
+.yourAccount a{
+    width: 100%;
+}
+
+.buttonHeader{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #0e0d0c;
+    border: none;
+    color: #d3ae4a;
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 2px solid #d3ae4a;   
+}
+
+.lastButton{
+    border-bottom:none ;
+}
+
+@media(max-width:1292px){
+    .buttonSideMenu{
+        display: block;
+    }
+
+    .sideMenuButton{
+        background-color: #222;
+    }
+
+}

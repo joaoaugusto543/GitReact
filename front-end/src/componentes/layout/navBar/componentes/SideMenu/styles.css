@@ -1,0 +1,95 @@
+.listaSideMenu{
+    display: none;
+    position: static;
+    font-size: 25px;
+    padding: 0.5em;
+    padding-bottom:0 ;
+}
+
+.listaSideMenu button{
+    display: none;
+    background-color: #222;
+    color: #d3ae4a;
+    font-size: 25px;
+
+}
+
+@media(max-width:1292px){
+    
+    .sideMenu{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        flex-direction: column;
+        background-color: #222;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 60%;
+        padding-top: 10em;
+        box-shadow: -3px 0px 11px 13px rgba(0 , 0 ,0, 0.4);
+        transform: translateX(100%);
+        transition: 1s;
+        z-index: 40;
+    }
+
+    .listaSideMenu{
+        display: block;
+    }
+
+    .listaSideMenu button{
+       display: block;
+    }
+
+}
+
+@media(max-width:900px){
+
+    .listaSideMenu{
+        font-size: 30px;
+    }
+
+    .listaSideMenu button{
+        font-size: 30px;
+    }
+    
+
+}
+
+
+
+@media(max-width:848px){
+    
+    .listaSideMenu{
+        font-size: 28px;
+    }
+
+    .listaSideMenu button{
+        font-size: 28px;
+     }
+
+}
+
+@media(max-width:600px){
+    
+    .listaSideMenu{
+        font-size: 25px;
+    }
+
+    .listaSideMenu button{
+        font-size: 25px;
+     }
+
+}
+
+@media(max-width:364px){ 
+
+    .listaSideMenu{
+        font-size: 20px;
+    }
+
+    .listaSideMenu button{
+        font-size: 20px;
+     }
+  
+}

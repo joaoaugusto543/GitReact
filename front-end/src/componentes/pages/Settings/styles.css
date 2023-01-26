@@ -1,0 +1,57 @@
+.settings{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: 0.5s;
+}
+
+.settings h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    color: #d3ae4a;
+}
+
+.buttonSettings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border: 3px solid #d3ae4a;
+    border-left:none ;
+    border-right:none ;
+    color: #d3ae4a;
+    font-size: 40px;
+    padding: 0.5em;
+}
+
+.closeSettings{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+}
+
+.closeSettings svg{
+    color: #d3ae4a;
+    padding: 0.3em;
+    font-size: 30px;
+}
+
+@media(max-width:374px){
+    .buttonSettings{
+        font-size: 23px;
+    }
+    .settings h1{
+        font-size: 23px;
+    }
+    
+}

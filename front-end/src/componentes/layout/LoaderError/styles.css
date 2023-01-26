@@ -1,0 +1,39 @@
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+}
+
+.error p{
+    font-size: 50px;
+    color: red;
+}
+
+.error a{
+    color: red;
+}
+
+@media(max-width:705px){
+    .error p{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:559px){
+    .error p{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:426px){
+    .error p{
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,132 @@
+.newRepo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.newRepo p{
+    font-size: 20px;
+    color: red;
+    margin-top: 1em;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.newRepo input{
+    width: 30%;
+    height: 30px;
+    padding: 0.5em;
+    font-size: 15px;
+}
+
+.newRepo label{
+    font-size: 30px;
+    color: #d3ae4a;
+    padding-right: 0.5em;
+}
+
+.newRepo button{
+    width: 160px;
+    height: 45px;
+    margin-left: 25px;
+    background-color: black;
+    color: #d3ae4a;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media(max-width:1100px){
+    .newRepo{
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 0.5em;
+    }
+
+    .newRepo input{
+        width: 96%;
+        font-size: 13px;
+        height: 25px;
+    }
+
+    .form{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    .newRepo label{
+        font-size: 25px;
+        padding: 0.5em 0;
+    
+    }
+
+    .newRepo button{
+        height: 30px;
+        width: 75px;
+        font-size: 10px
+    }
+
+    .newRepo svg{
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:730px){
+   
+
+    .newRepo input{
+        width: 95%;
+        font-size: 12px;
+        height: 20px;
+    }
+
+    .newRepo label{
+        font-size: 20px;    
+    }
+
+}
+
+@media(max-width:486px){
+   
+    .newRepo input{
+        width: 90%;
+        height: 15px;
+    }
+
+    .newRepo label{
+        font-size: 15px;    
+    }
+
+    .newRepo div{
+        width: 95%;
+    }
+
+    .newRepo button{
+        font-size: 9px;
+    }
+
+    .newRepo svg{
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:320px){
+   
+
+    .newRepo input{
+        height: 12px;
+        font-size: 10px;
+    }
+
+}

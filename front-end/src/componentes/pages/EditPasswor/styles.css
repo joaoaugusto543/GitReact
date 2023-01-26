@@ -1,0 +1,98 @@
+.background{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.editPassword{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 50%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.editPassword h1{
+    font-size: 30px;
+    color: #d3ae4a;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.editPassword label{
+    color: #d3ae4a;
+    font-size: 25px;
+    padding: 0.5em 0; 
+}
+
+.editPassword input{
+    width: 95%;
+    height: 25px;
+    font-size: 20px;
+    padding: 0.5em;
+    margin-bottom: 2em;
+}
+
+.editPassword a{
+    color: #d3ae4a;
+    text-align: center;
+    font-size: 15px;
+    margin: 1em;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.button button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(24, 23, 23);
+    border-radius: 50px;
+    color: #d3ae4a;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button button:hover{
+    background-color: rgb(12, 11, 11);
+}
+
+@media(max-width:416px){
+    .editPassword h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .editPassword label{
+        font-size: 20px;
+    }
+
+    .editPassword input{
+        height: 15px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:456px){
+    .editPassword{
+        width: 100%;
+        height: 100%;
+    }
+}

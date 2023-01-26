@@ -1,0 +1,173 @@
+
+
+.repository{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    transition: 0.5s;
+}
+
+.list:last-child > .repository > .information{
+    border-bottom:none ;
+}
+
+.repository p{
+    font-size: 20px;
+}
+
+.repository button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    background-color: #222;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 1em;
+
+}
+
+
+.repository svg{
+    color:#d3ae4a ;
+    font-size: 20px; 
+}
+
+.repository button:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.list{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorName{
+    font-size: 20px;
+    color: red;
+    margin:1em 0em;
+
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    color: #d3ae4a;
+    border-bottom:2px solid #d3ae4a ;
+    transition: 0.5s;
+}
+
+
+.information div{
+    padding: 0.2em 3em;
+}
+
+
+#openDeletionNoticeMobile{
+    display: none;
+}
+
+@media(max-width:2221px){
+    .repository{
+        width: 100%;
+    }
+}
+
+@media(max-width:1546px){
+    
+    #openDeletionNotice{
+        display: none;
+    }
+
+    #openDeletionNoticeMobile{
+        display: flex;
+    }
+
+    .warning{
+       display: none;
+    }
+}
+
+@media(max-width:778px){
+    .information p{
+        font-size: 15px;
+    }
+
+    .repository button{
+        height: 30px;
+        width: 75px;
+        font-size: 15px;
+        margin-bottom: 1em;
+    }
+
+    .repository button svg{
+       font-size: 15px;
+    }
+    
+}
+
+@media(max-width:564px){
+    .information p{
+        font-size: 13px;
+    }
+
+    .repository button{
+        height: 25px;
+        width: 55px;
+        font-size: 13px;
+    }
+
+    .repository button svg{
+       font-size: 13px;
+    }
+    
+}
+
+@media(max-width:441px){
+    .information div{
+        padding: 0.2em 1em;
+    }
+
+    .information p{
+        font-size: 12px;
+    }
+
+    .repository button{
+        height: 20px;
+        width: 45px;
+        font-size: 12px;
+    }
+
+    .repository button svg{
+       font-size: 12px;
+    }
+    
+}
+
+@media(max-width:308px){
+    
+    .repository p{
+        font-size: 10px;
+    }
+
+    .repository button{
+        height: 20px;
+        width: 45px;
+        font-size: 10px;
+    }
+
+    .repository button svg{
+       font-size: 10px;
+    }
+    
+}
+
+

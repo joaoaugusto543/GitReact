@@ -1,0 +1,98 @@
+.editRepository{
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    transition: 0.5s;
+}
+
+
+.editRepository label{
+    display: none;
+    color: #d3ae4a;
+    font-size: 20px;
+    padding-right: 0.5em;
+}
+
+.editRepository input{
+    display: none;
+    height: 20px;
+    width: 40%;
+    font-size: 15px;
+    padding: 0.5em;
+}
+
+.editRepository button{
+    display: none;
+    background-color: #222;
+    color: #d3ae4a;
+    font-size: 15px;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.editRepository div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:879px){
+
+    .editRepository label{
+        font-size: 15px;
+    }
+
+    .editRepository input{
+        height: 13px;
+        font-size: 13px;
+    }
+
+    .editRepository button{
+        height: 30px;
+        font-size: 12px;
+    }
+
+}
+
+
+@media(max-width:564px){
+
+    .editRepository label{
+        font-size: 12px;
+    }
+    
+    .editRepository button{
+        font-size: 10px;
+    }
+    
+}
+
+@media(max-width:441px){
+   
+    .editRepository button{
+        font-size: 9px;
+        height: 25px;
+    }
+
+    .editRepository input{
+        height: 10px;
+        font-size: 10px;
+    }
+    
+}
+
+@media(max-width:441px){
+    .editRepository label{
+        font-size: 10px;
+    }
+
+    .editRepository button{
+        font-size: 8px;
+        height: 20px;
+    }
+  
+}
