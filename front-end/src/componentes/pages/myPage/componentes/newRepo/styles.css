@@ -50,6 +50,10 @@
         margin-bottom: 0.5em;
     }
 
+    .newRepo{
+        margin-top: 1em;
+    }
+
     .newRepo input{
         width: 96%;
         font-size: 13px;
@@ -60,7 +64,6 @@
         width: 90%;
         align-items: center;
         justify-content: center;
-        margin-top: 2em;
     }
 
     .newRepo label{

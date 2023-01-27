@@ -18,6 +18,11 @@
     justify-content: center;
 }
 
+.editPassword p{
+    color: red;
+    padding: 1em;
+}
+
 .editPassword h1{
     font-size: 30px;
     color: #d3ae4a;

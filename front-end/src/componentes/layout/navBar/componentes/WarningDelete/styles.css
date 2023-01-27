@@ -5,8 +5,8 @@
 }
 
 .warningDeleteUser{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -15,6 +15,7 @@
 }
 
 .warningDeleteUser h1{
+    padding: 1em;
     font-size: 20px;
     margin-bottom: 2em;
     color: #d3ae4a;
@@ -44,7 +45,7 @@
     width: 70%;
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     .warningDeleteUser{
         height: 100%;
         width: 100%;

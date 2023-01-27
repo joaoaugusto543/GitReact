@@ -78,7 +78,7 @@ function Settings(){
             <h1>Configurações<AiFillSetting/></h1>
             <Link to='/EditUser'><button  className='buttonSettings'>Editar Conta</button></Link>
             <button className='buttonSettings' onClick={OpenWarning} >Excluir Conta</button>
-            <button onClick={logout} className='buttonSettings'>Sair<RiLogoutBoxRLine/></button>
+            <button onClick={logout} className='buttonSettings last'>Sair<RiLogoutBoxRLine/></button>
             <button onClick={CloseSettings} className='closeSettings'><AiOutlineClose/></button>
         </div>
     )

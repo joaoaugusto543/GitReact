@@ -17,20 +17,21 @@
     padding: 2em;
     color: #d3ae4a;
 }
-
 .buttonSettings{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: black;
-    border: 3px solid #d3ae4a;
-    border-left:none ;
-    border-right:none ;
+    border-top: 3px solid #d3ae4a;
     color: #d3ae4a;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0.5em;
+}
+
+.last{
+    border-bottom:3px solid #d3ae4a ;
 }
 
 .closeSettings{

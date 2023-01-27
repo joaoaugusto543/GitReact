@@ -31,8 +31,6 @@ function EditPassword(){
             await logout()
 
         } catch (error) {
-
-            console.log(error)
             
             if(error.response.data.error){
                 setLoaderError(true)
