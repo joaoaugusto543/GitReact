@@ -147,11 +147,12 @@ Configurações:
 # Minha página mobile
 
 ![myPageMobile](https://user-images.githubusercontent.com/119535029/215166676-935613d3-0d3a-4721-a926-41e074f3f1cd.png)
+
 ![myPageParteDois](https://user-images.githubusercontent.com/119535029/215167092-dcf0c8ce-7dfc-425d-b10e-eb8200e472d7.png)
 
 # Editar conta mobile
 
-![editarContaMobile](https://user-images.githubusercontent.com/119535029/215167372-2084205d-155f-4b69-91a3-5df0550bc4fb.png)
+![editarContaMobile](https://user-images.githubusercontent.com/119535029/215168774-6f8f6595-724e-41ed-9457-c1b5e04a0b69.png)
 
 # Editar senha mobile
 
