@@ -21,7 +21,7 @@ function Login(){
                 <p>{errorLogin}</p>
                 <div className='loginInformation'>
                     <div className="forms">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email">E-mail</label>
                         <input autoComplete="off" type="email" name="email" id="email" placeholder='Email' onChange={(e)=>setEmail(e.target.value)} />
                         <label htmlFor="password">Senha</label>
                         <input autoComplete="off" type="password" name='password' id='password' placeholder='Senha' onChange={(e)=>setPassword(e.target.value)}/>
