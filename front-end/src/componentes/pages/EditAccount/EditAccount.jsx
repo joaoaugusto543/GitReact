@@ -75,7 +75,7 @@ function EditAccount(){
                     <input autoComplete="off" type="text" name="UserName" id="UserName" placeholder='ex:Lucas123' onChange={(e)=>setUserName(e.target.value)} value={userName} />
                     <p>{errorUserName}</p>
                     {errorUserNameAlreadyExists && <p>{errorUserNameAlreadyExists}</p>}
-                    <label htmlFor="email">Email</label>
+                    <label htmlFor="email">E-mail</label>
                     <input autoComplete="off" type="email" name="email" id="email" placeholder="fulano@gmail.com" onChange={(e)=>setEmail(e.target.value)} value={email}/>
                     <p>{errorEmail}</p>
                     {emailAlreadyExists && <p>{emailAlreadyExists}</p>}
